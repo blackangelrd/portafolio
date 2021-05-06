@@ -1,0 +1,14 @@
+nav {
+    background-color: rgb(3, 3, 3);
+}
+
+nav a {
+    color: dimgrey;
+    padding: 0 0.5em;
+    font-size: 25px;
+    
+}
+
+nav a:hover{
+    color: gray;
+}

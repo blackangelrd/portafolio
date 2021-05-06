@@ -1,4 +1,9 @@
 footer{
-    background: rgb(36, 49, 49);
+    position: fixed;
+    background: #999;
     height: 8rem;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    
 }

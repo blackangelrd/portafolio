@@ -1,0 +1,7 @@
+.portada{
+	background: rgb(2, 135, 224);
+	height: 40vh;
+	background-size: cover;
+    color: white;
+    text-align: center; 
+}

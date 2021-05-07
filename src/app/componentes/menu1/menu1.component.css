@@ -3,12 +3,16 @@ nav {
 }
 
 nav a {
-    color: dimgrey;
+    color: gray;
     padding: 0 0.5em;
     font-size: 25px;
-    
 }
 
 nav a:hover{
-    color: gray;
+    color: white;
 }
+
+.badge{
+	background-color: gray; 
+}
+

@@ -1,7 +1,14 @@
 .portada{
-	background: rgb(2, 135, 224);
+	background: rgb(4, 39, 63);
 	height: 40vh;
 	background-size: cover;
-    color: white;
     text-align: center; 
 }
+
+/*
+img{
+	margin-top: 50px;	
+	height: 600px;
+	width: 400px;
+
+}*/

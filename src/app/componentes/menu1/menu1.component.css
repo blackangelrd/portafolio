@@ -8,11 +8,39 @@ nav a {
     font-size: 25px;
 }
 
-nav a:hover{
-    color: white;
+nav a:hover {
+    color: chartreuse;
+    opacity: 65%;
 }
 
-.badge{
+.badge {
 	background-color: gray; 
 }
 
+/*icono que oculta y colapsa*/
+.navbar-toggler-icon {
+    background-image: url(/assets/menu.png);
+    height: 35px;
+    width: 70px;
+    border: 2px; 
+    border-style: solid;
+    opacity: 60%;
+
+    /*
+    background-color: black; 
+    border-color: white;
+    */
+}
+
+.navbar-toggler-icon:hover {
+    opacity: 100%;
+    border-radius: 2px;  
+
+}
+
+nav p {
+    color: white;
+    padding-bottom: 0px;
+    font-size: 30px;
+
+}

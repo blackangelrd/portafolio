@@ -1,0 +1,19 @@
+.header {
+    color: white;
+    font-size: 20px;
+    margin-top: 6em;
+    
+}
+.contacto {
+    background-color: rgb(4, 39, 63);
+    text-align: center;
+    height: 40em;
+    
+
+}
+
+.form-group {
+    width: 34%;
+    margin-left: 34%;
+
+}

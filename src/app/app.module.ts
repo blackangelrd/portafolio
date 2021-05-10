@@ -6,6 +6,7 @@ import { Menu1Component } from './componentes/menu1/menu1.component';
 import { PortadaComponent } from './componentes/portada/portada.component';
 import { BodyComponent } from './componentes/body/body.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
     Menu1Component,
     PortadaComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule

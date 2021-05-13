@@ -15,25 +15,33 @@
 				<li class="nav-item" >
 				<!-- <img src="assets/logo.png" width="30" height="24" alt="" class="d-inline-block align-text-top" > -->
 
-				<p class="navbar-brand">Angelo Familia Garcia</p>
+				<a class="navbar-brand" href="#portada">Angelo Familia Garcia</a>
 				</li>
 			</ul>
 	
 			<div class="d-flex flex-row justify-content-right">
 				<ul class="navbar-nav">
-
+					<!--Badge-->	
 					<li class="nav-item active">
-						<a class="nav-link text-gray" href="index.html">Portafolio
+						<a class="nav-link text-gray" href="#portafolio">Portafolio
 							<span class="badge">4</span>
 						</a>
 					</li>
 					
+					<!--Dropdown-->
 					<li class="nav-item">
-						<a class="nav-link" href="#">Experiencia</a>
+						<div class="dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">
+							  Curriculum
+							</a>
+							<div class="dropdown-menu">
+							  <button class="dropdown-item" href="#">Descargar</button>
+							</div>
+						  </div>
 					</li>
 						
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
+						<a class="nav-link" href="#contacto">Contacto</a>
 					</li>
 
 				</ul>
@@ -42,3 +50,4 @@
 		</div>
 	</div>
 </nav>
+

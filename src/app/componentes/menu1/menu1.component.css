@@ -10,11 +10,13 @@ nav a {
 
 nav a:hover {
     color: chartreuse;
-    opacity: 65%;
+    opacity: 100%;
 }
 
 .badge {
-	background-color: gray; 
+    font-size: 12px;
+    transform: translate(-12px, -13px);
+    padding: 0px;
 }
 
 /*icono que oculta y colapsa*/
@@ -43,4 +45,12 @@ nav p {
     padding-bottom: 0px;
     font-size: 30px;
 
+}
+
+button{
+    font-size: large;
+    border-radius: 100px;
+}
+button:hover{
+    color: blue;
 }

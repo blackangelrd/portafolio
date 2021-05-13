@@ -1,19 +1,25 @@
 .header {
     color: white;
     font-size: 20px;
-    margin-top: 6em;
+    margin-top: 5em;
     
 }
-.contacto {
-    background-color: rgb(4, 39, 63);
+
+form {
     text-align: center;
     height: 40em;
-    
+    width: 500px;
+}
+
+.form {
+	background-color: rgb(4, 39, 63);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 
 }
 
-.form-group {
-    width: 34%;
-    margin-left: 34%;
-
-}

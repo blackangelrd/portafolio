@@ -15,3 +15,8 @@ img{
 	border-radius: 25px;
 
 }
+
+.pagination>li.active>span{
+	background-color: rgb(4, 39, 63);
+	color: #fff;
+}

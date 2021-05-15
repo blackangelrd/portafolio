@@ -13,11 +13,14 @@ nav a:hover {
     opacity: 100%;
 }
 
+/*
+Para mostrar cantidad de proyectos
 .badge {
     font-size: 12px;
     transform: translate(-12px, -13px);
     padding: 0px;
 }
+*/
 
 /*icono que oculta y colapsa*/
 .navbar-toggler-icon {

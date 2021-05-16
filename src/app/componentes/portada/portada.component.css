@@ -1,14 +1,36 @@
 .portada{
 	background: rgb(4, 39, 63);
 	height: 100vh;
-	background-size: cover;
     text-align: center; 
 }
 
-/*
-img{
-	margin-top: 50px;	
-	height: 600px;
-	width: 400px;
+.container{
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin-top: 100px;
+}
 
-}*/
+.img-portada{
+	border-radius: 225px;
+	height: 430px;
+	width: 450px;
+	background: rgb(40, 58, 95);
+	opacity: 40%;
+}
+p{
+	color: white;
+	margin-left: 25px;
+}
+/*img{
+	
+	background: rgb(7, 17, 37);
+	margin-top: 80px;	
+	height: 445px;
+	width: 470px;
+	border-radius: 230px;
+	
+}
+*/

@@ -13,6 +13,14 @@
 	margin-top: 100px;
 }
 
+/*Cambio de flex row a column para pantallas peque;as*/
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
 .img-portada{
 	border-radius: 225px;
 	height: 430px;
@@ -20,9 +28,11 @@
 	background: rgb(40, 58, 95);
 	opacity: 40%;
 }
+
 p{
 	color: white;
 	margin-left: 25px;
+	margin-top: 20px;
 }
 /*img{
 	

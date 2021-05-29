@@ -30,13 +30,17 @@ const appRoutes: Routes = [
     FooterComponent,
     ContactoComponent,
     P001Component,
-    HomepageComponent
+    HomepageComponent,
+    
+
+   
   ],
   imports: [
     BrowserModule,
     
     //importando el path
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+
   ],
   providers: [],
   bootstrap: [AppComponent]
